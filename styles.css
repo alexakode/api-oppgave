@@ -1,0 +1,16 @@
+#weather-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+:root {
+  color-scheme: light dark;
+}
+.weather-card {
+  background: light-dark (oklch(100% 0 0), oklch(0% 0 0));
+  color: light-dark (oklch(0% 0 0), oklch(100% 0 0));
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+}
